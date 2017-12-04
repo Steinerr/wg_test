@@ -8,17 +8,17 @@ from aiohttp import web
 
 class WriterView(web.View):
     async def get(self):
-        # print('======== load RATE ==========')
-        # await self._push_data('rate', 'rate.csv')
-        #
-        # print('======== load PROJECT ==========')
-        # await self._push_data('project', 'project.csv')
-        #
-        # print('======== load PROJECTRATE ==========')
-        # await self._push_data('projectrate', 'projectrate.csv')
-        #
-        # print('======== load CLICK ==========')
-        # await self._push_data('click', 'click.csv')
+        print('======== load RATE ==========')
+        await self._push_data('rate', 'rate.csv')
+
+        print('======== load PROJECT ==========')
+        await self._push_data('project', 'project.csv')
+
+        print('======== load PROJECTRATE ==========')
+        await self._push_data('projectrate', 'projectrate.csv')
+
+        print('======== load CLICK ==========')
+        await self._push_data('click', 'click.csv')
 
         print('======== load EVENT ==========')
         await self._push_data('event', 'event.csv')
