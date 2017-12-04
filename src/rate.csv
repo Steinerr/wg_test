@@ -1,0 +1,10 @@
+country,event,partner,value
+DE,tutorial  ,partner1  ,1
+FR,tutorial  ,partner1  ,2
+IT,tutorial  ,partner1  ,3
+RU,tutorial  ,partner2  ,3
+FR,tutorial  ,partner2  ,4
+IT,tutorial  ,partner2  ,5
+RU,reg       ,partner2  ,3
+FR,reg       ,partner2  ,4
+IT,reg       ,partner2  ,5

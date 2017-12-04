@@ -1,0 +1,6 @@
+aiopg==0.13.1
+manage.py==0.2.10
+peewee==2.10.2
+peewee-async==0.5.10
+psycopg2==2.7.3.2
+aiohttp==2.3.5
